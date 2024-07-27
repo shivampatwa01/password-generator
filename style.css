@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(167, 167, 252) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+   
+}
+h1{
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 10px;
+}
+.display-container{
+    background-color: #081b31;
+    width: 260px;
+    height: 30px;
+    border-radius: 7px;
+    border-bottom: solid 4px rgb(112, 82, 144);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-container input{
+    /* background-color: red; */
+    color: gold;
+    background-color: #081b31;
+    border: transparent;
+    margin-left: 10px;
+}
+.display-container button{
+    background-color: black;
+    border: transparent;
+    margin-right: 10px;
+}
+
+
+
+.input-container{
+    background-color: #081b31;
+    width: 230px;
+    height: 250px;
+    color: white;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.length-container{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    font-size: 14.5px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.num{
+    color: gold;
+    font-size: 15px;
+}
+
+input[type="range"]{
+    width: 100%;
+    background-color: black;
+    
+}
+
+input[type="checkbox"]#uppercase:checked {
+    border-color: red;
+  background-color:red;
+}
